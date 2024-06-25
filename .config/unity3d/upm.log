@@ -1,0 +1,85 @@
+[2024-06-25T12:11:31.975Z][INFO] Command-line: /home/hackaroon/Unity/Hub/Editor/6000.0.7f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager -s 19454 -ipc -ipc-path /tmp/Unity-Upm-19454.sock -l 2
+[2024-06-25T12:11:31.985Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-19454.sock).
+[2024-06-25T12:11:31.985Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-19454.
+[2024-06-25T12:11:33.116Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2024-06-25T12:11:33.155Z][INFO] project:update-dependencies --> 200 (40 ms)
+[2024-06-25T12:11:33.176Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2024-06-25T12:11:37.103Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.0@0.0.15] from registry 'https://packages.unity.com'
+[2024-06-25T12:11:38.057Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.0@0.0.15] from registry 'https://packages.unity.com' (size: 2.09 kB, time: 953ms)
+[2024-06-25T12:11:44.550Z][INFO] Downloading package [com.unity.mathematics@1.3.2] from registry 'https://packages.unity.com'
+[2024-06-25T12:11:44.552Z][INFO] Downloading package [com.unity.collections@2.4.1] from registry 'https://packages.unity.com'
+[2024-06-25T12:11:46.277Z][INFO] Finished downloading package [com.unity.collections@2.4.1] from registry 'https://packages.unity.com' (size: 836 kB, time: 1.7s)
+[2024-06-25T12:11:46.483Z][INFO] Finished downloading package [com.unity.mathematics@1.3.2] from registry 'https://packages.unity.com' (size: 1.36 MB, time: 1.9s)
+[2024-06-25T12:12:05.856Z][WARN] Requested version [2.0.3] for package [com.unity.ext.nunit] overridden by minimum version [2.0.5].
+[2024-06-25T12:12:05.856Z][WARN] Requested version [1.8.14] for package [com.unity.burst] overridden by minimum version [1.8.15].
+[2024-06-25T12:12:05.866Z][INFO] project:resolve-packages --> 200 (32690 ms)
+[2024-06-25T12:12:07.461Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.toolchain.linux-x86_64"
+}
+[2024-06-25T12:12:10.042Z][INFO] Downloading package [com.unity.toolchain.linux-x86_64@2.0.9] from registry 'https://packages.unity.com'
+[2024-06-25T12:12:10.046Z][INFO] Downloading package [com.unity.sysroot@2.0.10] from registry 'https://packages.unity.com'
+[2024-06-25T12:12:10.048Z][INFO] Downloading package [com.unity.sysroot.linux-x86_64@2.0.9] from registry 'https://packages.unity.com'
+[2024-06-25T12:12:12.166Z][INFO] Finished downloading package [com.unity.sysroot@2.0.10] from registry 'https://packages.unity.com' (size: 481 kB, time: 2.1s)
+[2024-06-25T12:13:29.218Z][INFO] Finished downloading package [com.unity.sysroot.linux-x86_64@2.0.9] from registry 'https://packages.unity.com' (size: 81.7 MB, time: 1m 19.1s)
+[2024-06-25T12:16:12.276Z][INFO] Finished downloading package [com.unity.toolchain.linux-x86_64@2.0.9] from registry 'https://packages.unity.com' (size: 510 MB, time: 4m 2.2s)
+[2024-06-25T12:16:49.583Z][INFO] project:add-dependency --> 200 (282122 ms)
+[2024-06-25T12:16:50.371Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:16:50.380Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:16:50.412Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2024-06-25T12:16:50.438Z][INFO] config:project:get-registries --> 200 (26 ms)
+[2024-06-25T12:16:50.513Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2024-06-25T12:16:50.823Z][INFO] project:list-packages --> 200 (452 ms)
+[2024-06-25T12:16:51.652Z][WARN] Requested version [2.0.3] for package [com.unity.ext.nunit] overridden by minimum version [2.0.5].
+[2024-06-25T12:16:51.652Z][WARN] Requested version [1.8.14] for package [com.unity.burst] overridden by minimum version [1.8.15].
+[2024-06-25T12:16:51.664Z][INFO] project:resolve-packages --> 200 (1151 ms)
+[2024-06-25T12:16:53.175Z][INFO] project:list-packages --> 200 (2794 ms)
+[2024-06-25T12:17:44.597Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:17:44.610Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:17:44.631Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2024-06-25T12:17:44.669Z][INFO] config:project:get-registries --> 200 (38 ms)
+[2024-06-25T12:17:45.434Z][INFO] project:list-packages --> 200 (825 ms)
+[2024-06-25T12:17:47.408Z][INFO] project:list-packages --> 200 (2811 ms)
+[2024-06-25T12:18:30.187Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:18:30.204Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:18:30.780Z][INFO] project:list-packages --> 200 (593 ms)
+[2024-06-25T12:18:32.498Z][INFO] project:list-packages --> 200 (2294 ms)
+[2024-06-25T12:18:33.969Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy"
+}
+[2024-06-25T12:18:34.896Z][INFO] Downloading package [com.unity.collab-proxy@2.4.3] from registry 'https://packages.unity.com'
+[2024-06-25T12:18:41.889Z][INFO] Finished downloading package [com.unity.collab-proxy@2.4.3] from registry 'https://packages.unity.com' (size: 12.8 MB, time: 6.9s)
+[2024-06-25T12:18:43.581Z][INFO] project:add-dependency --> 200 (9613 ms)
+[2024-06-25T12:18:43.634Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2024-06-25T12:18:44.111Z][WARN] Requested version [2.0.3] for package [com.unity.ext.nunit] overridden by minimum version [2.0.5].
+[2024-06-25T12:18:44.111Z][WARN] Requested version [1.8.14] for package [com.unity.burst] overridden by minimum version [1.8.15].
+[2024-06-25T12:18:44.119Z][INFO] project:resolve-packages --> 200 (485 ms)
+[2024-06-25T12:18:44.196Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2024-06-25T12:18:44.209Z][INFO] config:project:get-registries --> 200 (12 ms)
+[2024-06-25T12:18:44.214Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:18:44.642Z][INFO] project:list-packages --> 200 (428 ms)
+[2024-06-25T12:19:14.298Z][INFO] project:list-packages <-- Request received
+params: {}
+[2024-06-25T12:19:14.309Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2024-06-25T12:19:14.316Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2024-06-25T12:19:14.691Z][INFO] project:list-packages --> 200 (393 ms)
+[2024-06-25T12:20:03.538Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2024-06-25T12:20:03.550Z][INFO] config:project:get-registries --> 200 (13 ms)
+[2024-06-25T12:29:29.255Z][INFO] Received shutdown request (SIGINT), shutting down Unity Package Manager

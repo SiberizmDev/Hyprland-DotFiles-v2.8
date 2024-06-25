@@ -1,0 +1,10 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 1 1 1))
+(palette "Color History")
+(font "Neometric Bold Italic")
+(font-size 98)
+(justify center)
+(box-mode fixed)
+
+# end of gimp-text-tool options

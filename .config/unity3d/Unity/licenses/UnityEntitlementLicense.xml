@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <License Id="Terms" IssueDate="2024-06-25T12:11:30.795Z" Version="1.0">
+    <EntitlementGroups>
+      <EntitlementGroup Id="18967997630424-UnityPersonal" Namespace="unity_editor" Product="Unity Personal" SubsGroup="Unity Editor" Tag="UnityPersonal" Type="EDITOR">
+        <Context>
+          <User Id="18967997630424" />
+          <StartDate>2024-06-24T18:36:33Z</StartDate>
+          <UpdateDate>2024-07-25T12:11:30.821Z</UpdateDate>
+          <Identifiers>
+            <Identifier Id="0fec1057e8e24b42aa401a0b42ad5150" Type="Legacy.MachineBinding1" />
+            <Identifier Id="0fec1057e8e24b42aa401a0b42ad5150" Type="Legacy.MachineBinding2" />
+            <Identifier Id="hackaroon" Type="EnvironmentHostname" />
+            <Identifier Id="hackaroon" Type="EnvironmentDomain" />
+          </Identifiers>
+        </Context>
+        <Entitlements>
+          <Entitlement Id="com.unity.editor" />
+          <Entitlement Id="com.unity.editor.ui" />
+          <Entitlement Id="com.unity.editor.headless" />
+          <Entitlement Id="com.unity.editor.dark-skin" />
+          <Entitlement Id="com.unity.editor.legacy.team-license" />
+          <Entitlement Id="com.unity.editor.platforms.android" />
+          <Entitlement Id="com.unity.editor.platforms.ios" />
+          <Entitlement Id="com.unity.editor.platforms.uwp" />
+        </Entitlements>
+      </EntitlementGroup>
+    </EntitlementGroups>
+  </License>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="#Terms">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>IxBWBSFEu3UUb8oNJFhBJ0/k/jY=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>KIPHU8g400CXm2nXXBbWRhLiy0NtaRrjIxEcOGbl3nXaVx4qP7Vb8UxkgnDX4RklSHE0t3oniS3p
+Q8Q44BWeyPuFhY9sea3gU3HeLA58237NuWJs/X3fpD5sTqMhVqmJzFzdVx2rs5rqPW2ZzvRQZM4P
++mVCbcK23XtQ8eY9sOIZjdNKGmGmhm1zInc/Vsiuwp6zHAYOUqNSosUmTPQXPLWxe0A1Vmzzx07C
+TBptVdE07XlR3KxLQQxqHAbf8cBgHcv1/C/uZxqWSG3DN24iOsh8tenEt3Jdp+Flt0Hxz2x7xCBs
+ieHnHpTofNViMiT/k7IhC+SxBCJ6TcK9c9rE2g==</SignatureValue>
+  </Signature>
+</root>

@@ -1,0 +1,28 @@
+# GIMP action-history
+
+(history-item "tools-move" 3)
+(history-item "layers-new" 1)
+(history-item "edit-paste" 2)
+(history-item "tools-scale" 4)
+(history-item "image-new" 1)
+(history-item "tools-opacity-decrease" 0)
+(history-item "file-export" 0)
+(history-item "file-export-as" 1)
+(history-item "file-open" 0)
+(history-item "tools-align" 0)
+(history-item "file-quit" 1)
+(history-item "tools-rotate" 0)
+(history-item "file-save" 0)
+(history-item "dialogs-preferences" 1)
+(history-item "edit-clear" 1)
+(history-item "select-float" 0)
+(history-item "tools-perspective" 0)
+(history-item "layers-delete" 0)
+(history-item "layers-duplicate" 0)
+(history-item "tools-flip" 0)
+(history-item "layers-new-group" 0)
+(history-item "tools-eraser" 0)
+(history-item "tools-airbrush" 0)
+(history-item "tools-text" 1)
+
+# end of action-history
