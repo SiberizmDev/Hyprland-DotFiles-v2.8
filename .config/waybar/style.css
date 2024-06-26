@@ -15,10 +15,9 @@ window#waybar {
 
 #workspaces {
 	background: #333545;
-	margin: 5px 5px 5px 5px;
+	margin: 7px 7px 7px 7px;
   padding: 0px 5px 0px 5px;
 	border-radius: 20px;
-  border: solid 0px #f4d9e1;
   font-weight: normal;
   font-style: normal;
 }
@@ -32,8 +31,8 @@ window#waybar {
 }
 
 #workspaces button:hover {
-	background-color: #E6B9C6;
-	color: black;
+	background-color: #4FFD7D;
+	color: #282A36;
 	border-radius: 8px;
 }
 
@@ -58,10 +57,7 @@ window#waybar {
 	color: #db4b4b;
 	background-color: #333545;
 	border-radius: 20px;
-	margin-right: 10px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 0px;
+	margin: 7px;
 	padding: 1px;
     font-size: 20px;
 }
@@ -139,19 +135,10 @@ window#waybar {
 
 #custom-launcher {
     background-color: #333545;
-    margin: 5px;
-    margin-left: 10px;
+    margin: 7px;
     padding: 0 10px 0 10px;
     /*border-right: solid 1px #282738;*/
     font-size: 20px;
-}
-
-#custom-launcher button:hover {
-    background-color: #FB4934;
-    color: transparent;
-    border-radius: 8px;
-    margin-right: -5px;
-    margin-left: 25px;
 }
 
 #custom-playerctl {
