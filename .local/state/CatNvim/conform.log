@@ -1,0 +1,12 @@
+23:28:32[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `ilocal`. (starting from line 1, character 1 and ending on line 1, character 7)
+additional information: leftover token
+
+23:28:39[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `window_background_opacity`. (starting from line 13, character 2 and ending on line 13, character 27)
+additional information: expected '}'
+
+23:28:55[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `window_background_opacity`. (starting from line 13, character 2 and ending on line 13, character 27)
+additional information: expected '}'
+
+23:29:27[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `=`. (starting from line 11, character 16 and ending on line 11, character 17)
+additional information: expected '}'
+
