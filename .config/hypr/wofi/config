@@ -10,7 +10,7 @@ columns=2
 
 ## Geometry
 width=700px
-height=500px
+height=400px
 location=0
 orientation=vertical
 halign=fill
